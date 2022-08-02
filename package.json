@@ -11,7 +11,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "prebuild": "node get-data-api-script --tenant=auto",
-    "build": "gatsby build",
+    "build": "node get-data-api-script --tenant=auto; gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
