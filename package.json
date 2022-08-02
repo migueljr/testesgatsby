@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "prebuild": "node get-data-api-script --tenant=auto",
+    "prebuild": "node get-data-api-script --tenant=auto ",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
