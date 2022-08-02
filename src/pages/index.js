@@ -1,4 +1,5 @@
 import * as React from "react"
+import dataJson from '../data/data'
 
 // styles
 const pageStyles = {
@@ -127,11 +128,12 @@ const links = [
 
 // markup
 const IndexPage = () => {
+
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        {process.env.TENANT}
+        {dataJson.customer_app.tenant}
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
